@@ -5,9 +5,9 @@ The R code presented here contains all necessary code to process data from the H
 The code should be executed from the working directory containing the 'activity_labels.txt' 'features_info.txt' and 'features.txt' documents, with nested folders 'test' and 'train' (downloadable from the assignment description.)
 
 Broadly, the code can be though of as having three elements: 
-1) merging of the 'test' and 'train' data sets into a data frame called 'all'
-2) appropriate annotation and cleaning of the data frame
-3) creation of a tidy summary sheet using the 'melt' and 'cast' functions
+1. merging of the 'test' and 'train' data sets into a data frame called 'all'
+2. appropriate annotation and cleaning of the data frame
+3. creation of a tidy summary sheet using the 'melt' and 'cast' functions
 
 Note that the final data set only includes summaries of the mean() and sd() statistics calculated from the accelerometer data - other variables were removed, as  directed in the assignment. 
 
